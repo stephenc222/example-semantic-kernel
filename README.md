@@ -8,4 +8,11 @@ The `JobSearchPlugin` is defined in [plugins/JobSearch.py](plugins/JobSearch.py)
 
 ## Running the Project
 
-To run the project, execute the `main` function in `app.py`. This will initialize the kernel, import the plugins, and run a job search (using the SerpAPI internally).
+To run the project, first make sure to have Python 3.9.6 at least installed, then install packages:
+
+```bash
+
+pip3 install -r requirements.txt
+```
+
+Then execute the `main` function in `app.py` with `python3 app.py`. This will initialize the kernel, import the plugins, and run a job search (using the SerpAPI internally).

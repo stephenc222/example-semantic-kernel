@@ -1,3 +1,4 @@
 semantic_kernel
 python-dotenv
 serpapi
+asyncio
